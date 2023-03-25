@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://mobimg.b-cdn.net/v3/fetch/5a/5ae1711afac98f222dd8c0971fec2356.jpeg?w=1470&r=0.5625) bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(206, 11, 11);
+    font-size: 4rem;
+    font-family: Georgia, serif;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer .links > a {
+    color: rgb(30, 18, 99);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.news {
+    padding: 10px 20px 32px;
+}
+
+article:nth-child(2n) {
+    background-color: rgb(223, 214, 231);
+}
+
+article {
+    width: 768px;
+    margin: 0;
+    border-bottom: 1px solid rgb(72, 18, 114);
+    display: inline-block;
+}
+
+article a {
+    color:rgb(72, 18, 114);
+    text-decoration: none;
+}
+
+article a:hover {
+    color:blueviolet;
+}
+
+article h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.article-meta{
+    color: rgb(78, 75, 75);
+    margin-bottom: 5px;
+}
+
+article img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+h2.subtitle::before {
+    content: "New ";
+    color:rgb(199, 16, 16);
+}
+
+footer.sticky {
+  position: sticky;
+  bottom: 20px;
+  border-style: solid;
+  border-color:black;
+  border-width: 1px;
+  background-color: rgb(189, 174, 201)
+}
+
+footer.copyrigth {
+    padding: 40px;
+    background-color: rgb(182, 140, 180);
+    color: rgb(32, 31, 31);
+    font-family: 'Times New Roman', Times, serif;
+}
